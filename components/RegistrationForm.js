@@ -1,4 +1,4 @@
-import styles from './FeedbackForm.module.css'
+import styles from './Form.module.css'
 
 export default function RegistrationForm() {
   return (
