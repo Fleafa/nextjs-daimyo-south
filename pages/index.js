@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
-import FeedbackForm from "@components/FeedbackForm";
+import FeedbackForm from "@components/RegistrationForm";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <p className="description">
           submissions can be found in the Netlify Admin site.
         </p>
-        <FeedbackForm />
+        <RegistrationForm />
       </main>
       <Footer />
     </div>
