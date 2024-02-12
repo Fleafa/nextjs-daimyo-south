@@ -1,6 +1,6 @@
 import styles from './Form.module.css'
 
-export default function RegistrationForm() {
+export default function RegForm() {
   return (
       <form
         className={styles.form}
